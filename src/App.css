@@ -1,0 +1,89 @@
+.App {
+  /* text-align: center; */
+  color: white;
+  padding-left: 50px;
+}
+#root {
+  background-image: url("https://mezha.media/wp-content/uploads/2021/12/Netflix.jpg");
+}
+
+.nav {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr;
+  gap: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.movies-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.budget {
+  text-align: end;
+}
+.reflix-title {
+  color: royalblue;
+  text-align: end;
+}
+
+.movies-cards {
+  display: flex;
+  gap: 5px;
+  padding-left: 40px;
+}
+
+.user-cards {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  padding-left: 450px;
+  color: white;
+}
+
+.landing-page {
+  text-align: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
