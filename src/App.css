@@ -7,6 +7,11 @@
   background-image: url("https://mezha.media/wp-content/uploads/2021/12/Netflix.jpg");
 }
 
+.user-pic {
+  width: 150px;
+  height: 150px;
+}
+
 .nav {
   color: white;
   display: grid;
@@ -31,6 +36,8 @@ a:link {
 .reflix-title {
   color: royalblue;
   text-align: end;
+  padding-right: 50px;
+  font-size: 30px;
 }
 
 .movies-cards {

@@ -18,7 +18,7 @@ export default function Accounts({ users, setUsers }) {
           <div>
             <div onClick={() => setUserLoggedIn(i.id)}>
               <Link to={`/home/${i.id}`}>
-                <img src={i.img} width="150px" height="150px" />
+                <img src={i.img} className="user-pic" />
               </Link>
               <h3>{i.name}</h3>
             </div>
